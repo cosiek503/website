@@ -1,0 +1,278 @@
+@media print
+{
+    #wstep
+    {
+        position: relative;
+    }
+    
+    body
+    {
+        position: relative;
+    }
+    
+    #main
+    {
+        position: relative;
+    }
+    
+    #header
+    {
+        position: relative;
+    }
+    
+    #nav
+    {
+        position: relative;
+        right: 50px;
+    }
+    
+    #historia
+    {
+        position: relative;
+        right: 100px;
+    }
+    
+    #zasada
+    {
+        position: relative;
+        top: 500px;
+        right: 100px;
+    }
+    
+    #rzedowy
+    {
+        position: relative;
+        top: 500px;
+        right: 100px;
+    }
+    
+    #widlasty
+    {
+        position: relative;
+        top: 500px;
+        right: 100px;
+    }
+    
+    #boxer
+    {
+        position: relative;
+        top: 500px;
+        right: 100px;
+    }
+    
+    #wankel
+    {
+        position: relative;
+        top: 500px;
+        right: 100px;
+    }
+    
+    #footer
+    {
+        position: relative;
+    }
+}
+
+@font-face
+{
+    font-family: 'bebas-kai';
+    src: url('fonty/troika.otf');
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{       
+    margin: 0 auto;
+    text-align: justify;
+    background-size: cover;
+    background-size: 100%;
+    background-image: url(obrazy/tlo.jpg);
+}
+
+#wstep
+{
+    height: 500px;
+    background-size: cover;
+    background-image: url(obrazy/baner.jpg);
+    background-position: center center;
+}
+
+#main
+{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    box-shadow: 0px 5px 100px red;
+}
+        
+#header 
+{   
+    font-family: 'bebas-kai';
+    height: 65px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #A31600;
+    font-size: 30px;
+}
+
+#nav 
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-family: 'bebas-kai';
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 5px 20px black;
+}
+
+h2
+{
+    font-family: 'bebas-kai';
+    margin-bottom: 5px;
+}
+
+.kotwica
+{
+    display: inline;
+}
+
+#historia
+{
+    font-family: 'Roboto';
+    width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+    border-top: solid black 2px;
+    margin-bottom: 20px;
+}
+
+#zasada
+{
+    font-family: 'Roboto';
+    width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+    border-top: solid black 2px;
+    margin-bottom: 20px;
+}
+
+
+#rzedowy
+{
+    font-family: 'Roboto';
+    width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+    border-top: solid black 2px;
+    margin-bottom: 20px;
+}
+
+#widlasty
+{
+    font-family: 'Roboto';
+    width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+    border-top: solid black 2px;
+    margin-bottom: 20px;
+}
+
+#boxer
+{
+    font-family: 'Roboto';
+    width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+    border-top: solid black 2px;
+    margin-bottom: 20px;
+}
+
+#wankel
+{
+    font-family: 'Roboto';
+    width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+    border-top: solid black 2px;
+    margin-bottom: 20px;
+}
+
+h3
+{
+    font-family: 'bebas-kai';
+    font-size: 20px;
+    text-align: center;
+}
+        
+#footer 
+{
+    font-family: 'Roboto';
+    width: 1100px;
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+    border-top: solid black 2px;
+    margin-bottom: 20px;
+}
+       
+a 
+{
+    font-family: 'bebas-kai';
+    text-decoration: none;
+    font-size: 35px;
+    color: darkslategrey;
+}
+
+a:hover
+{
+    color: darkcyan;
+}
+
+.prawy
+{
+    float: right;
+    padding: 15px;
+    background-size: cover;
+}
+
+.lewy
+{
+    float: left;
+    padding: 15px;
+    background-size: cover;
+}
+
+.prawy2
+{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    background-size: cover;
+}
+
+.srodkowanie
+{
+    padding-left: 180px;
+}
+
+.srodkowanie2
+{
+    padding-left: 120px;
+}
+
+*
+{
+    margin: 0 auto;
+}

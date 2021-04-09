@@ -96,6 +96,7 @@ body
 #wstep
 {
     height: 500px;
+    width: 100%;
     background-size: cover;
     background-image: url(obrazy/baner.jpg);
     background-position: center center;
